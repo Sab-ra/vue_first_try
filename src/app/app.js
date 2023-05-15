@@ -4,9 +4,9 @@ const app = Vue.createApp({
       url: 'http://www.thenetninja.co.uk', 
       showBooks: true,
       books: [
-        { title: 'Easter on the Hell-Forest Road', author: 'Keira Moore', img: 'assets/img_1.png' },
-        { title: 'Progratic Programmer', author: 'David Thomas', img: 'assets/img_2.png' },
-        { title: 'Ruby for Dummies', author: 'Christopher Haupt', img: 'assets/img_3.png' },
+        { title: 'Easter on the Hell-Forest Road', author: 'Keira Moore', img: 'assets/img_1.png', isFav: true },
+        { title: 'Progratic Programmer', author: 'David Thomas', img: 'assets/img_2.png', isFav: false },
+        { title: 'Ruby for Dummies', author: 'Christopher Haupt', img: 'assets/img_3.png', isFav: true },
   
       ],
     }
